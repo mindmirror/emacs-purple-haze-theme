@@ -62,7 +62,7 @@
 
  ;; Line Numbers (linum-mode)
  '(linum
-   ((t (:background "#151019" :foreground "#403047" :box nil :height 100))))
+   ((t (:background "#151019" :foreground "#403047" :box nil :height 130))))
 
  ;; Margin Fringes
  '(fringe
@@ -70,7 +70,7 @@
 
  ;; Mode-line / status line
  '(mode-line
-   ((t (:background "#2b283d" :box nil :foreground "#8c86e4" :height 85))))
+   ((t (:background "#2b283d" :box nil :foreground "#8c86e4" :height 140))))
 
  '(mode-line-inactive
    ((t (:weight light :box nil :background "#202339" :foreground "#000000" :inherit (mode-line)))))
@@ -160,7 +160,7 @@
 
  '(isearch
    ((((class color) (min-colors 88) (background light)) (:foreground "#ee99ee" :background "#444444"))
-    (((class color) (min-colors 88) (background dark)) (:foreground "#514361" :background "##444444"))
+    (((class color) (min-colors 88) (background dark)) (:foreground "orange" :background "##444444"))
     (((class color) (min-colors 16)) (:foreground "#c088cc" :background "#444444"))
     (((class color) (min-colors 8)) (:foreground "#c088cc" :background "#444444")) (t (:inverse-video t))))
 
