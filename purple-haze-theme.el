@@ -96,7 +96,7 @@
 
  ;; Region
  '(region
-   ((t (:background "#1a101f"))))
+   ((t (:background "#780A78"))))
 
  ;; Secondary region
  '(secondary-selection
